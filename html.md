@@ -24,3 +24,10 @@ The HTML Standard requires **zero** or more ascii whitespace between between `do
 
 While the HTML Standard doesn't specifically state that lang attribute values are case-insensitive, the examples it gives are lowercase. It also states that lang values must "valid BCP 47 language tag". [BCP 47](https://www.rfc-editor.org/info/bcp47) (Best Current Practices 47) is an RFC defining the best practices for language tags. It states that the tags should be treated as [case-insensitive](https://www.rfc-editor.org/rfc/pdfrfc/rfc4647.txt.pdf).
 
+```html
+<html lang="EN"></html>
+```
+
+```html
+<html lang="en"></html>
+```

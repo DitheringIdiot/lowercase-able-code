@@ -4,11 +4,11 @@
 
 The exponent indicator can be either `E` or `e`. 
 
-```
+```js
 const trillion = 10E12
 ```
 
-```
-const trillion == 10e12
+```js
+const trillion = 10e12
 ```
 

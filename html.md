@@ -16,6 +16,6 @@ Doctype is case insensitive.
 
 The HTML Standard requires **zero** or more ascii whitespace between between `doctype` and `html` meaning the space can be ommitted.
 
-```
+```html
 <!doctypehtml>
 ```

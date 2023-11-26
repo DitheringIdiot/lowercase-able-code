@@ -48,17 +48,17 @@ sizes="50vw"
 
 The HTML Standard states that the character encoding must be 'an ASCII case-insensitive match for "utf-8"'.
 
-```
+```html
 <meta charset="UTF-8">
 ```
 
-```
+```html
 <meta charset="utf-8">
 ```
 
 ### Additional optimization
 
-The `<meta charset="utf-8">` should appear as early in the document as possible — and must appear in the first `1024 bytes` of the document.
+`<meta charset="utf-8">` should appear as early in the document as possible — and must appear in the first `1024 bytes` of the document.
 The sooner the browser sees it, the sooner it can stop trying to work out what the character encoding is, saving some computation.
 
 

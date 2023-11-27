@@ -12,14 +12,6 @@ Doctype is case insensitive.
 <!doctype html>
 ```
 
-### Additional optimization
-
-The HTML Standard requires **zero** or more ascii whitespace between between `doctype` and `html` meaning the space can be ommitted.
-
-```html
-<!doctypehtml>
-```
-
 ## `lang` attribute [3.2.6.2](https://html.spec.whatwg.org/multipage/dom.html#the-lang-and-xml:lang-attributes)
 
 The HTML Standard doesn't specifically state that lang attribute values are case-insensitive — though the examples it gives are lowercase. It does state that lang values must be "valid BCP 47 language tag". [BCP 47](https://www.rfc-editor.org/info/bcp47) (Best Current Practices 47) is an RFC defining the best practices for language tags. It states that the tags should be treated as [case-insensitive](https://www.rfc-editor.org/rfc/pdfrfc/rfc4647.txt.pdf).

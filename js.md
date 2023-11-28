@@ -11,4 +11,5 @@ const trillion = 10E12
 ```js
 const trillion = 10e12
 ```
-
+### Implementations
+- [x] Terser
